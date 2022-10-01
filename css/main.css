@@ -1,0 +1,68 @@
+body{
+    background-color: aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+.comments-container{
+    width: 50%;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px;
+}
+.comment-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+    min-width: 70%;
+}
+.comment-item img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: thin solid rgb(90, 90, 196);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.comment-item input{
+    border-radius: 20px;
+    border: thin solid rgb(90, 90, 196);
+    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    text-align: center;
+
+
+}
+.comment-item .caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.comment-item .caption h6{
+    font-size: medium;
+    color: rgb(90, 90, 196);
+    margin: 5px;
+    margin-bottom: 2px;
+}
+.comment-item .caption p{
+    font-size: small;
+    color: grey;
+    margin: 5px;
+    margin-top: 2px;
+}
